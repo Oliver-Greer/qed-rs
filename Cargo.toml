@@ -6,3 +6,10 @@ edition = "2024"
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
 anyhow = { version = "1.0" }
+candle-core = { version = "0.9.1" }
+candle-transformers = { version = "0.9.1" }
+tokenizers = { version = "0.22.2" }
+ort = { version = "2.0.0-rc.10" }
+symbolica = { version = "1.0.1" }
+selen = { version = "0.15.4" }
+wordnet = { version = "0.1.2" }
