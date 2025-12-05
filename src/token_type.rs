@@ -1,5 +1,5 @@
 
-pub enum TokenType {
+pub enum _TokenType {
     SEMI_COLON,
     EOF
 }

@@ -1,0 +1,6 @@
+nlp_api.py
+pyproject.toml
+nlp_api.egg-info/PKG-INFO
+nlp_api.egg-info/SOURCES.txt
+nlp_api.egg-info/dependency_links.txt
+nlp_api.egg-info/top_level.txt

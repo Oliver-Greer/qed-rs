@@ -1,15 +1,15 @@
 use std::fmt;
-use crate::token_type::TokenType;
+use crate::token_type::_TokenType;
 
-pub struct Token {
-    t_type: TokenType,
+pub struct _Token {
+    t_type: _TokenType,
     lexeme: Vec<char>,
     line: usize
 }
 
-impl Token {
-    pub fn new(t_type: TokenType, lexeme: Vec<char>, line: usize) -> Token {
-        Token {
+impl _Token {
+    pub fn new(t_type: _TokenType, lexeme: Vec<char>, line: usize) -> _Token {
+        _Token {
             t_type,
             lexeme,
             line
@@ -17,7 +17,7 @@ impl Token {
     }
 }
 
-impl fmt::Display for Token {
+impl fmt::Display for _Token {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         write!(f, "")
     }
